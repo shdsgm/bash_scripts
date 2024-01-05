@@ -1,8 +1,5 @@
 #!/bin/bash
 
-internal_arg1="foo"
-internal_arg2="bar"
-
 # Print the name of the script
 echo "Script name: $0"
 
