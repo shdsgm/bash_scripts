@@ -25,7 +25,7 @@ for arg in "$@"; do
 done
 
 # Calculate the average
-average=$(echo "scale=2; $sum / $count" | bc)
+average=$(echo "scale=3; $sum / $count" | bc)
 
 # Output results
 echo "Sum: $sum"
